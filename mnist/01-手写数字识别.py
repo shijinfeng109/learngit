@@ -10,3 +10,5 @@ print("t_train.shape:"+str(t_train.shape[0])+",")
 print("x_text.shape:"+str(x_text.shape[0])+","+str(x_text.shape[1]))
 print("t_text.shape:"+str(t_text.shape[0])+",")
 # print(t_text.shape) #查看 t_text.shape为1维数组
+dir = os.path.dirname(os.path.abspath(__file__))
+print(dir)
